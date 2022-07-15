@@ -71,7 +71,9 @@
         var layer_Ph3selected_1 = L.tileLayer('ph3_map/{z}/{x}/{y}.png', {
             pane: 'pane_Ph3selected_1',
             opacity: 1,
-            attribution: ''
+            attribution: '',
+            maxNativeZoom: 12,
+            maxZoom: 28
         });
         layer_Ph3selected_1;
         map.addLayer(layer_Ph3selected_1);
